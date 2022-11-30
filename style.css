@@ -1000,6 +1000,16 @@ header .online__para {
   display: none;
 }
 
+.toggle__icon{
+  display: inline;
+}
+
+@media(min-width:768px){
+  .toggle__icon{
+    display: none;
+  }
+}
+
 .pricing__link,
 .navbar__btns .btn__secondary {
   font-weight: 500;
@@ -1121,4 +1131,21 @@ header .online__para {
 
 .nav__select {
   cursor: pointer;
+}
+
+
+/* help */
+.help{
+  margin-left: 4rem;
+width: 150%;
+}
+
+.help__image{
+  width: 180%;
+}
+
+@media(max-width:768px){
+  .help{
+    margin-left: 0rem;
+  }
 }
